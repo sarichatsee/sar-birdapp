@@ -1,0 +1,76 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="Logo"></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-navbar"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <input type="checkbox" name="toggle-menu" id="toggle-menu">
+            <label for="toggle-menu" type="button" class="toggle-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </label>
+        </button>
+        <!-- Navbar toggler button and menu -->
+        <!-- Ensure your toggle button and offcanvas target are set up correctly -->
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/"><i class="fas fa-home"></i> HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/sightings"><i class="fas fa-binoculars"></i> SIGHTINGS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact"><i class="fas fa-reply-all"></i> CONTACT</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="fas fa-folder-open"></i> NEW ENTRY</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/addBird">ADD BIRD</a></li>
+                        <li><a class="dropdown-item" href="/addFamily">ADD FAMILY</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">WORK WITH US</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Offcanvas -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas-navbar" aria-labelledby="offcanvas-navbarLabel">
+    <div class="offcanvas-header">
+        <img src="/img/logo.png" alt="Logo">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="navbar-nav ms-auto" id="bootscore-navbar">
+            <li id="menu-item-51139" class="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-51139">
+                <a class="nav-link active" aria-current="page" href="/"><i class="fas fa-home"></i> HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/sightings"><i class="fas fa-binoculars"></i> SIGHTINGS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact"><i class="fas fa-reply-all"></i> CONTACT</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fas fa-folder-open"></i> NEW ENTRY</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/addBird">ADD BIRD</a></li>
+                    <li><a class="dropdown-item" href="/addFamily">ADD FAMILY</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">WORK WITH US</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
